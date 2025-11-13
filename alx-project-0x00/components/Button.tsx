@@ -3,7 +3,7 @@ import { ButtonProps } from "@/interfaces";
 const Button: React.FC<ButtonProps> = ({
     title,
     size = 'medium',
-    shape = 'rounded-md',
+    shapes = 'rounded-md',
     className = '',
     style,
     ...props
@@ -18,11 +18,11 @@ const Button: React.FC<ButtonProps> = ({
     const shapeClasses: Record<string, String> ={
         "rounded-sm": "rounded-sm",
         "rounded-md": "rounded-md",
-        "rounded-full": "rounded-full",
+        "rounded-lg": "rounded-lg",
     };
     return(
         <button
-        className={`bg-blue-600 text-white font-medium ${sizeClasses[size]} ${shapeClasses[shape]} hover:bg-blue-700 transition ${className}`}
+        className={`bg-blue-600 text-white font-medium ${sizeClasses[size]} ${shapeClasses[shapes]} hover:bg-blue-700 transition ${className}`}
         style={style}
         {...props}
     >

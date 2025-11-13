@@ -8,16 +8,17 @@ const Landing: React.FC= () =>{
 
               {/* Shape Variants */}
       <div className="flex flex-wrap gap-4 justify-center">
-        <Button title="Rounded Small" shape="rounded-sm" size="medium" />
-        <Button title="Rounded Medium" shape="rounded-md" size="medium" />
-        <Button title="Rounded Full" shape="rounded-full" size="medium" />
+        <Button title="Rounded Small" shapes="rounded-sm" size="medium" />
+        <Button title="Rounded Medium" shapes="rounded-md" size="medium" />
+        <Button title="Rounded Full" shapes="rounded-lg" size="medium" />
       </div>
 
       {/* Size Variants */}
       <div className="flex flex-wrap gap-4 justify-center mt-8">
-        <Button title="Small Button" shape="rounded-md" size="small" className="bg-amber-700" />
-        <Button title="Medium Button" shape="rounded-md" size="medium" />
-        <Button title="Large Button" shape="rounded-md" size="large" />
+        <Button title="Small Button" shapes="rounded-md" size="small" />
+        <Button title="Medium Button" shapes="rounded-md" size="medium" />
+        <Button title="Large Button" shapes="rounded-md" size="large" />
+        
       </div>
 
       {/* Custom Style Example */}
@@ -25,13 +26,13 @@ const Landing: React.FC= () =>{
         <Button
           title="Success"
           size="medium"
-          shape="rounded-full"
+          shapes="rounded-lg"
           className="bg-green-600 hover:bg-green-700"
         />
         <Button
           title="Danger"
           size="medium"
-          shape="rounded-full"
+          shapes="rounded-lg"
           className="bg-red-600 hover:bg-red-700"
         />
       </div>
