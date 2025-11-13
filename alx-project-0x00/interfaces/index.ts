@@ -3,8 +3,8 @@ export interface PillProps {
 }
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     title: string;
-    size?: 'small' | 'medium' | 'large';
-    shapes?: 'rounded-sm' | 'rounded-md'|'rounded-lg';
+    size?: 'small' | 'medium' | 'large'|'extralarge';
+    shapes?: 'rounded-sm' | 'rounded-md'|'rounded-lg'|'rounded-full';
     className?: string;
     style?: React.CSSProperties;
 }

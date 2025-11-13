@@ -11,6 +11,7 @@ const Landing: React.FC= () =>{
         <Button title="Rounded Small" shapes="rounded-sm" size="medium" />
         <Button title="Rounded Medium" shapes="rounded-md" size="medium" />
         <Button title="Rounded Full" shapes="rounded-lg" size="medium" />
+        <Button title="Rounded Full" shapes="rounded-full" size="medium" />
       </div>
 
       {/* Size Variants */}
@@ -18,6 +19,7 @@ const Landing: React.FC= () =>{
         <Button title="Small Button" shapes="rounded-md" size="small" />
         <Button title="Medium Button" shapes="rounded-md" size="medium" />
         <Button title="Large Button" shapes="rounded-md" size="large" />
+        <Button title="Extra Large Button" shapes="rounded-full" size="extralarge" />
         
       </div>
 
