@@ -1,6 +1,6 @@
 import Image from "next/image";
-import house from "../public/house.jpg";
-import star from "../public/star.jpg";
+import house from "@/public/assets/images/house.png";
+import star from "@/public/assets/images/star.png";
 import Pill from "./Pill";
 
 const PillTyped = Pill as unknown as React.FC<{ title: string }>;
